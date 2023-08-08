@@ -1,0 +1,2 @@
+Depth of node 1 = 0
+ Height of node 1 = 2
