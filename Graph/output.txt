@@ -1,2 +1,8 @@
-Depth of node 1 = 0
- Height of node 1 = 2
+Visiting node: 1
+Visiting node: 2
+Visiting node: 3
+Visiting node: 4
+Level of 1: 0
+Level of 2: 1
+Level of 3: 1
+Level of 4: 2
