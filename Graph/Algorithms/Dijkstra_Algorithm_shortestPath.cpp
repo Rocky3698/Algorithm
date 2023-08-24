@@ -26,7 +26,7 @@ void dijkstra(int source)
             if (dist[v] > dist[u] + w)
             {
                 dist[v] = dist[u] + w;
-                pq.push({dist[v],v});
+                pq.push({dist[v], v});
             }
         }
     }
