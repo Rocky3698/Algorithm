@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define endl "\n"
-typedef pair<int, int> pii;
-const int N = 1e3 + 5;
-const int INF = 1e9 + 7;
 int main()
 {
     ios_base::sync_with_stdio(0);
