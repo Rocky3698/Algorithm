@@ -58,11 +58,18 @@ int main()
 
     bellman_ford(1);
 
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     cout << "D of " << i;
+    //     cout << ": " << d[i] << endl;
+    // }
     for (int i = 1; i <= n; i++)
     {
-        cout << "D of " << i;
-        cout << ": " << d[i] << endl;
+        if (d[i] == INF)
+            cout << 30000 << " ";
+        else
+            cout << d[i] << " ";
     }
-
+    cout << endl;
     return 0;
 }

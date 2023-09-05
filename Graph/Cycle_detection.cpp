@@ -50,6 +50,6 @@ int main()
         cout << "Cycle Detected!\n";
     else
         cout << "No Cycles!\n";
-        
+
     return 0;
 }

@@ -25,7 +25,7 @@ void print_matrix()
         {
             if (d[i][j] == INF)
                 cout << "x"
-                     << " ";
+                    << " ";
             else
                 cout << d[i][j] << " ";
         }
