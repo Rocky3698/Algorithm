@@ -38,16 +38,7 @@ int main()
         }
         st[end].push(s);
     }
-    // st.erase(st.begin());
-    // for (auto q : st)
-    // {   if(q.empty())continue;
-    //     while (!q.empty())
-    //     {
-    //         cout << q.front() << endl;
-    //         q.pop();
-    //     }
-    //     cout << endl;
-    // }
+
     int sze = 0;
     for (auto q : st)
     {
@@ -58,11 +49,12 @@ int main()
     {
         for (int i = 1; i <= p; i++)
         {
-            if(st[i].empty())continue;
-            string s=st[i].front();
+            if (st[i].empty())
+                continue;
+            string s = st[i].front();
             st[i].pop();
             sze--;
-            cout<<s<<endl;
+            cout << s << endl;
         }
     }
 
