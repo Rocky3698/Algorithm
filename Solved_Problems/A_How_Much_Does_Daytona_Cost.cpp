@@ -26,26 +26,10 @@ int main()
             if (arr[i] == k)
             {
                 flag = true;
-                // if(i==n-1)flag=true;
-                // continue;
             }
-            // if (found && prev != arr[i])
-            // {
-            //     flag = true;
-            //     found = false;
-            // }
-            // prev = arr[i];
+
         }
-        // if (n == 1)
-        // {
-        //     (k == arr[0]) ? cout << "YES" << endl : cout << "NO" << endl;
-        //     continue;
-        // }
-        // if (freq[k] == 0)
-        // {
-        //     cout << "NO" << endl;
-        //     continue;
-        // }
+   
         (flag) ? cout << "YES" << endl : cout << "NO" << endl;
     }
 
